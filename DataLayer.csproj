@@ -44,8 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MigrationsContextFactory.cs" />
-    <Compile Include="Context.cs" />
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="EfContext.cs" />
     <Compile Include="Migrations\201211111808526_AddCategory.cs" />
     <Compile Include="Migrations\201211111808526_AddCategory.Designer.cs">
@@ -62,10 +61,6 @@
     <ProjectReference Include="..\DomainModel\DomainModel.csproj">
       <Project>{c11802a0-5553-4577-b316-afcba154da3f}</Project>
       <Name>DomainModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Framework\Framework.csproj">
-      <Project>{91453399-eab9-423d-9be6-ce5cecd18d2f}</Project>
-      <Name>Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
